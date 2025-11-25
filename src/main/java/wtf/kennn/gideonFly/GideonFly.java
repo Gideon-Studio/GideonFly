@@ -56,25 +56,19 @@ public final class GideonFly extends JavaPlugin {
         registerListeners();
 
 
-        log("       &b&lGIDEONFLY");
-        log("");
-        log("&fPlugin by &bGideon Studio");
-        log("&fAuthor: &bKenn");
-        log("&fStatus: &aEnabled");
-        log("&fVersion: &a" + getDescription().getVersion());
-        log("");
+       ChatUtil.log("&b--------------------------------------------");
+        ChatUtil.log("&a         GideonFly is starting...");
+        ChatUtil.log("&7        Thank you for using my plugin!");
+        ChatUtil.log("&b--------------------------------------------");
     }
 
     @Override
     public void onDisable() {
 
-        log("       &b&lGIDEONFLY");
-        log("");
-        log("&fPlugin by &bGideon Studio");
-        log("&fAuthor: &bKenn");
-        log("&fStatus: &aDisabled");
-        log("&fVersion: &a" + getDescription().getVersion());
-        log("");
+           ChatUtil.log("&b--------------------------------------------");
+        ChatUtil.log("&a         GideonFly is stoping...");
+        ChatUtil.log("&7        Thank you for using my plugin!");
+        ChatUtil.log("&b--------------------------------------------");
     }
 
     private void registerListeners() {
